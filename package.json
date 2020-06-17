@@ -1,0 +1,32 @@
+{
+  "name": "socketio-server-nodejs",
+  "version": "1.0.0",
+  "description": "node js server to use home automation using websocket and jwt token",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sSchmidtT/socketIO-Server-NodeJS.git"
+  },
+  "author": "sSchmidtT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sSchmidtT/socketIO-Server-NodeJS/issues"
+  },
+  "homepage": "https://github.com/sSchmidtT/socketIO-Server-NodeJS#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.1",
+    "socketio": "^1.0.0",
+    "socketio-auth": "^0.1.1",
+    "sqlite3": "^4.2.0"
+  }
+}
